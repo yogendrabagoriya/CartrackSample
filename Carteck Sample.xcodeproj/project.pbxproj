@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		181BE6412930937A00F80E1E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 181BE6402930937A00F80E1E /* AppDelegate.swift */; };
 		181BE6432930937A00F80E1E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 181BE6422930937A00F80E1E /* SceneDelegate.swift */; };
-		181BE6452930937A00F80E1E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 181BE6442930937A00F80E1E /* ViewController.swift */; };
+		181BE6452930937A00F80E1E /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 181BE6442930937A00F80E1E /* HomeViewController.swift */; };
 		181BE6482930937A00F80E1E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 181BE6462930937A00F80E1E /* Main.storyboard */; };
 		181BE64B2930937A00F80E1E /* Carteck_Sample.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 181BE6492930937A00F80E1E /* Carteck_Sample.xcdatamodeld */; };
 		181BE64D2930937C00F80E1E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 181BE64C2930937C00F80E1E /* Assets.xcassets */; };
@@ -40,7 +40,7 @@
 		181BE63D2930937A00F80E1E /* Carteck Sample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Carteck Sample.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		181BE6402930937A00F80E1E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		181BE6422930937A00F80E1E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		181BE6442930937A00F80E1E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		181BE6442930937A00F80E1E /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		181BE6472930937A00F80E1E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		181BE64A2930937A00F80E1E /* Carteck_Sample.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Carteck_Sample.xcdatamodel; sourceTree = "<group>"; };
 		181BE64C2930937C00F80E1E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -101,12 +101,11 @@
 		181BE63F2930937A00F80E1E /* Carteck Sample */ = {
 			isa = PBXGroup;
 			children = (
-				181BE6402930937A00F80E1E /* AppDelegate.swift */,
-				181BE6422930937A00F80E1E /* SceneDelegate.swift */,
-				181BE6442930937A00F80E1E /* ViewController.swift */,
-				181BE6462930937A00F80E1E /* Main.storyboard */,
+				181BE673293093CC00F80E1E /* AppDelegates */,
+				181BE674293093DE00F80E1E /* Feature */,
+				181BE675293093E500F80E1E /* Core */,
+				181BE6772930941200F80E1E /* Storyboards */,
 				181BE64C2930937C00F80E1E /* Assets.xcassets */,
-				181BE64E2930937C00F80E1E /* LaunchScreen.storyboard */,
 				181BE6512930937C00F80E1E /* Info.plist */,
 				181BE6492930937A00F80E1E /* Carteck_Sample.xcdatamodeld */,
 			);
@@ -128,6 +127,47 @@
 				181BE6662930937D00F80E1E /* Carteck_SampleUITestsLaunchTests.swift */,
 			);
 			path = "Carteck SampleUITests";
+			sourceTree = "<group>";
+		};
+		181BE673293093CC00F80E1E /* AppDelegates */ = {
+			isa = PBXGroup;
+			children = (
+				181BE6402930937A00F80E1E /* AppDelegate.swift */,
+				181BE6422930937A00F80E1E /* SceneDelegate.swift */,
+			);
+			path = AppDelegates;
+			sourceTree = "<group>";
+		};
+		181BE674293093DE00F80E1E /* Feature */ = {
+			isa = PBXGroup;
+			children = (
+				181BE6762930940100F80E1E /* Home */,
+			);
+			path = Feature;
+			sourceTree = "<group>";
+		};
+		181BE675293093E500F80E1E /* Core */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		181BE6762930940100F80E1E /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				181BE6442930937A00F80E1E /* HomeViewController.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		181BE6772930941200F80E1E /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				181BE6462930937A00F80E1E /* Main.storyboard */,
+				181BE64E2930937C00F80E1E /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -261,7 +301,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				181BE6452930937A00F80E1E /* ViewController.swift in Sources */,
+				181BE6452930937A00F80E1E /* HomeViewController.swift in Sources */,
 				181BE64B2930937A00F80E1E /* Carteck_Sample.xcdatamodeld in Sources */,
 				181BE6412930937A00F80E1E /* AppDelegate.swift in Sources */,
 				181BE6432930937A00F80E1E /* SceneDelegate.swift in Sources */,
