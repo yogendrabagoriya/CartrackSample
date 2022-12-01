@@ -7,13 +7,5 @@ target 'Carteck Sample' do
 
   # Pods for Carteck Sample
 pod 'NVActivityIndicatorView', '~> 4.8'
-  target 'Carteck SampleTests' do
-    inherit! :search_paths
-    # Pods for testing
-  end
-
-  target 'Carteck SampleUITests' do
-    # Pods for testing
-  end
 
 end

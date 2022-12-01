@@ -43,7 +43,7 @@
 		18861FC0293108A30050556F /* LoginVCComposer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18861FBF293108A30050556F /* LoginVCComposer.swift */; };
 		18861FC329310B920050556F /* LoginDBRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18861FC229310B920050556F /* LoginDBRepository.swift */; };
 		18861FC529310BB70050556F /* CTLoginDBRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18861FC429310BB70050556F /* CTLoginDBRepository.swift */; };
-		94BF48299379543D728A29D9 /* Pods_Carteck_Sample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6CFE2DE4146D743F96986236 /* Pods_Carteck_Sample.framework */; };
+		4D46A1D7F6584E312F137A04 /* Pods_Carteck_Sample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B9817E4D907BD412CE79133E /* Pods_Carteck_Sample.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -85,14 +85,10 @@
 		18861FBF293108A30050556F /* LoginVCComposer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVCComposer.swift; sourceTree = "<group>"; };
 		18861FC229310B920050556F /* LoginDBRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginDBRepository.swift; sourceTree = "<group>"; };
 		18861FC429310BB70050556F /* CTLoginDBRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CTLoginDBRepository.swift; sourceTree = "<group>"; };
-		4AB6A02DA4BCCECACF9703FA /* Pods-Carteck Sample-Carteck SampleUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Carteck Sample-Carteck SampleUITests.debug.xcconfig"; path = "Target Support Files/Pods-Carteck Sample-Carteck SampleUITests/Pods-Carteck Sample-Carteck SampleUITests.debug.xcconfig"; sourceTree = "<group>"; };
-		6CFE2DE4146D743F96986236 /* Pods_Carteck_Sample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Carteck_Sample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		808FBA3560667C174E54DC5B /* Pods-Carteck Sample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Carteck Sample.debug.xcconfig"; path = "Target Support Files/Pods-Carteck Sample/Pods-Carteck Sample.debug.xcconfig"; sourceTree = "<group>"; };
-		85A26ACC4A4FD0C9BD57A860 /* Pods-Carteck Sample-Carteck SampleUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Carteck Sample-Carteck SampleUITests.release.xcconfig"; path = "Target Support Files/Pods-Carteck Sample-Carteck SampleUITests/Pods-Carteck Sample-Carteck SampleUITests.release.xcconfig"; sourceTree = "<group>"; };
 		B3E11EAFA76345FF96B9B2C3 /* Pods_Carteck_SampleTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Carteck_SampleTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		C9C76E721A228EBC55825407 /* Pods-Carteck SampleTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Carteck SampleTests.debug.xcconfig"; path = "Target Support Files/Pods-Carteck SampleTests/Pods-Carteck SampleTests.debug.xcconfig"; sourceTree = "<group>"; };
+		B9817E4D907BD412CE79133E /* Pods_Carteck_Sample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Carteck_Sample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E1EC9B7FDD00BB5C0750810B /* Pods-Carteck Sample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Carteck Sample.release.xcconfig"; path = "Target Support Files/Pods-Carteck Sample/Pods-Carteck Sample.release.xcconfig"; sourceTree = "<group>"; };
-		EBC1EB801805B650AFF4773C /* Pods-Carteck SampleTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Carteck SampleTests.release.xcconfig"; path = "Target Support Files/Pods-Carteck SampleTests/Pods-Carteck SampleTests.release.xcconfig"; sourceTree = "<group>"; };
 		F6CF83801842BF636EBD59CD /* Pods_Carteck_Sample_Carteck_SampleUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Carteck_Sample_Carteck_SampleUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -101,7 +97,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				94BF48299379543D728A29D9 /* Pods_Carteck_Sample.framework in Frameworks */,
+				4D46A1D7F6584E312F137A04 /* Pods_Carteck_Sample.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -341,9 +337,9 @@
 		3FBD38826C9277F9B39568FF /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				6CFE2DE4146D743F96986236 /* Pods_Carteck_Sample.framework */,
 				F6CF83801842BF636EBD59CD /* Pods_Carteck_Sample_Carteck_SampleUITests.framework */,
 				B3E11EAFA76345FF96B9B2C3 /* Pods_Carteck_SampleTests.framework */,
+				B9817E4D907BD412CE79133E /* Pods_Carteck_Sample.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -353,10 +349,6 @@
 			children = (
 				808FBA3560667C174E54DC5B /* Pods-Carteck Sample.debug.xcconfig */,
 				E1EC9B7FDD00BB5C0750810B /* Pods-Carteck Sample.release.xcconfig */,
-				4AB6A02DA4BCCECACF9703FA /* Pods-Carteck Sample-Carteck SampleUITests.debug.xcconfig */,
-				85A26ACC4A4FD0C9BD57A860 /* Pods-Carteck Sample-Carteck SampleUITests.release.xcconfig */,
-				C9C76E721A228EBC55825407 /* Pods-Carteck SampleTests.debug.xcconfig */,
-				EBC1EB801805B650AFF4773C /* Pods-Carteck SampleTests.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -372,7 +364,7 @@
 				181BE6392930937A00F80E1E /* Sources */,
 				181BE63A2930937A00F80E1E /* Frameworks */,
 				181BE63B2930937A00F80E1E /* Resources */,
-				078A46DF150DE4C6407664E0 /* [CP] Embed Pods Frameworks */,
+				A0795D95BCC87DFF9014B743 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -433,7 +425,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		078A46DF150DE4C6407664E0 /* [CP] Embed Pods Frameworks */ = {
+		A0795D95BCC87DFF9014B743 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
