@@ -58,7 +58,14 @@ extension HomeViewController: UITableViewDataSource{
     }
 }
 
-
+extension HomeViewController: UITableViewDelegate{
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        if let userElement = self.people?[indexPath.row]{
+            let vc = PeopleDetailVCComposer.makePeopleDetailVC(userElement: userElement)
+            self.navigationController?.pushViewController(vc, animated: true)
+        }
+    }
+}
 
 extension HomeViewController: HomeVCPresenter{
     func peopleHandler(peoples: People) {

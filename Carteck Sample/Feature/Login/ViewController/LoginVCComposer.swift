@@ -11,7 +11,6 @@ import UIKit
 struct LoginVCComposer{
     
     static func makeLoginVC() -> (UIViewController) {
-        let manager = NetworkManager(session: .shared)
 
         let repository = CTLoginDBRepository()
         let viewModel = LoginVCViewModel(repository: repository)

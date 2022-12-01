@@ -48,6 +48,9 @@
 		188E98592939269400FE95B9 /* UITableViewExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 188E98572939269400FE95B9 /* UITableViewExt.swift */; };
 		188E985C2939279000FE95B9 /* PeopleTVCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 188E985B2939279000FE95B9 /* PeopleTVCell.swift */; };
 		188E985E293927A300FE95B9 /* PeopleTVCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 188E985D293927A300FE95B9 /* PeopleTVCell.xib */; };
+		188E98612939303300FE95B9 /* PeopleDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 188E98602939303300FE95B9 /* PeopleDetailViewController.swift */; };
+		188E98632939306F00FE95B9 /* PeopleDetailVCComposer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 188E98622939306F00FE95B9 /* PeopleDetailVCComposer.swift */; };
+		188E9865293930BB00FE95B9 /* PeopleDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 188E9864293930BB00FE95B9 /* PeopleDetailViewController.xib */; };
 		4D46A1D7F6584E312F137A04 /* Pods_Carteck_Sample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B9817E4D907BD412CE79133E /* Pods_Carteck_Sample.framework */; };
 /* End PBXBuildFile section */
 
@@ -95,6 +98,9 @@
 		188E98572939269400FE95B9 /* UITableViewExt.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UITableViewExt.swift; sourceTree = "<group>"; };
 		188E985B2939279000FE95B9 /* PeopleTVCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeopleTVCell.swift; sourceTree = "<group>"; };
 		188E985D293927A300FE95B9 /* PeopleTVCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PeopleTVCell.xib; sourceTree = "<group>"; };
+		188E98602939303300FE95B9 /* PeopleDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeopleDetailViewController.swift; sourceTree = "<group>"; };
+		188E98622939306F00FE95B9 /* PeopleDetailVCComposer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeopleDetailVCComposer.swift; sourceTree = "<group>"; };
+		188E9864293930BB00FE95B9 /* PeopleDetailViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PeopleDetailViewController.xib; sourceTree = "<group>"; };
 		808FBA3560667C174E54DC5B /* Pods-Carteck Sample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Carteck Sample.debug.xcconfig"; path = "Target Support Files/Pods-Carteck Sample/Pods-Carteck Sample.debug.xcconfig"; sourceTree = "<group>"; };
 		B3E11EAFA76345FF96B9B2C3 /* Pods_Carteck_SampleTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Carteck_SampleTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B9817E4D907BD412CE79133E /* Pods_Carteck_Sample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Carteck_Sample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -161,6 +167,7 @@
 			children = (
 				185482472930F98400BD6498 /* Login */,
 				181BE6762930940100F80E1E /* Home */,
+				188E985F2939300800FE95B9 /* Detail */,
 			);
 			path = Feature;
 			sourceTree = "<group>";
@@ -357,6 +364,16 @@
 			path = TableViewCell;
 			sourceTree = "<group>";
 		};
+		188E985F2939300800FE95B9 /* Detail */ = {
+			isa = PBXGroup;
+			children = (
+				188E98602939303300FE95B9 /* PeopleDetailViewController.swift */,
+				188E9864293930BB00FE95B9 /* PeopleDetailViewController.xib */,
+				188E98622939306F00FE95B9 /* PeopleDetailVCComposer.swift */,
+			);
+			path = Detail;
+			sourceTree = "<group>";
+		};
 		3FBD38826C9277F9B39568FF /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -442,6 +459,7 @@
 				1854824C2930F9CE00BD6498 /* LoginViewController.xib in Resources */,
 				18630B2C2930D20F007003DE /* HomeViewController.xib in Resources */,
 				181BE6502930937C00F80E1E /* LaunchScreen.storyboard in Resources */,
+				188E9865293930BB00FE95B9 /* PeopleDetailViewController.xib in Resources */,
 				181BE64D2930937C00F80E1E /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -511,6 +529,7 @@
 				181BE64B2930937A00F80E1E /* Carteck_Sample.xcdatamodeld in Sources */,
 				18630B242930C545007003DE /* UserEndPoint.swift in Sources */,
 				181BE6852930A02300F80E1E /* Endpoint.swift in Sources */,
+				188E98612939303300FE95B9 /* PeopleDetailViewController.swift in Sources */,
 				181BE68B2930A0B900F80E1E /* HTTPURLResponseExt.swift in Sources */,
 				188E98592939269400FE95B9 /* UITableViewExt.swift in Sources */,
 				18861FC329310B920050556F /* LoginDBRepository.swift in Sources */,
@@ -518,6 +537,7 @@
 				181BE6832930A02300F80E1E /* NetworkManager.swift in Sources */,
 				181BE68E2930A0EC00F80E1E /* AlertBehavior.swift in Sources */,
 				18630B172930AFD6007003DE /* PeopleAPI.swift in Sources */,
+				188E98632939306F00FE95B9 /* PeopleDetailVCComposer.swift in Sources */,
 				18630B142930A879007003DE /* CodableExt.swift in Sources */,
 				1854824E2930FA0000BD6498 /* LoginVCViewModel.swift in Sources */,
 				18630B1D2930B2BB007003DE /* CTUserParser.swift in Sources */,
