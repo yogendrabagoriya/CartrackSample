@@ -11,7 +11,7 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
 
     var window: UIWindow?
     
-    private lazy var navigationController = UINavigationController(rootViewController: HomeVCComposer.makeHomeVC())
+    private lazy var navigationController = UINavigationController(rootViewController: LoginVCComposer.makeLoginVC())
 
 
     func scene(_ scene: UIScene, willConnectTo session: UISceneSession, options connectionOptions: UIScene.ConnectionOptions) {

@@ -13,9 +13,6 @@
 		181BE64B2930937A00F80E1E /* Carteck_Sample.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 181BE6492930937A00F80E1E /* Carteck_Sample.xcdatamodeld */; };
 		181BE64D2930937C00F80E1E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 181BE64C2930937C00F80E1E /* Assets.xcassets */; };
 		181BE6502930937C00F80E1E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 181BE64E2930937C00F80E1E /* LaunchScreen.storyboard */; };
-		181BE65B2930937D00F80E1E /* Carteck_SampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 181BE65A2930937D00F80E1E /* Carteck_SampleTests.swift */; };
-		181BE6652930937D00F80E1E /* Carteck_SampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 181BE6642930937D00F80E1E /* Carteck_SampleUITests.swift */; };
-		181BE6672930937D00F80E1E /* Carteck_SampleUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 181BE6662930937D00F80E1E /* Carteck_SampleUITestsLaunchTests.swift */; };
 		181BE67929309C5800F80E1E /* HomeVCComposer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 181BE67829309C5800F80E1E /* HomeVCComposer.swift */; };
 		181BE67C29309CA800F80E1E /* HomeVCViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 181BE67B29309CA800F80E1E /* HomeVCViewModel.swift */; };
 		181BE6822930A02300F80E1E /* NetworkClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 181BE67E2930A02300F80E1E /* NetworkClient.swift */; };
@@ -26,13 +23,16 @@
 		181BE68B2930A0B900F80E1E /* HTTPURLResponseExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 181BE68A2930A0B900F80E1E /* HTTPURLResponseExt.swift */; };
 		181BE68E2930A0EC00F80E1E /* AlertBehavior.swift in Sources */ = {isa = PBXBuildFile; fileRef = 181BE68D2930A0EC00F80E1E /* AlertBehavior.swift */; };
 		181BE6902930A10E00F80E1E /* LoadingBehavior.swift in Sources */ = {isa = PBXBuildFile; fileRef = 181BE68F2930A10E00F80E1E /* LoadingBehavior.swift */; };
+		1854824A2930F9A800BD6498 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 185482492930F9A800BD6498 /* LoginViewController.swift */; };
+		1854824C2930F9CE00BD6498 /* LoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1854824B2930F9CE00BD6498 /* LoginViewController.xib */; };
+		1854824E2930FA0000BD6498 /* LoginVCViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1854824D2930FA0000BD6498 /* LoginVCViewModel.swift */; };
 		18630B0A2930A777007003DE /* AlertInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18630B092930A777007003DE /* AlertInfo.swift */; };
 		18630B0D2930A7C6007003DE /* AppSetup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18630B0C2930A7C6007003DE /* AppSetup.swift */; };
 		18630B0F2930A7DA007003DE /* Configurator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18630B0E2930A7DA007003DE /* Configurator.swift */; };
 		18630B122930A819007003DE /* APISettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18630B112930A819007003DE /* APISettings.swift */; };
 		18630B142930A879007003DE /* CodableExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18630B132930A879007003DE /* CodableExt.swift */; };
 		18630B172930AFD6007003DE /* UserAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18630B162930AFD6007003DE /* UserAPI.swift */; };
-		18630B1A2930B11C007003DE /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18630B192930B11C007003DE /* User.swift */; };
+		18630B1A2930B11C007003DE /* People.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18630B192930B11C007003DE /* People.swift */; };
 		18630B1D2930B2BB007003DE /* CTUserParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18630B1C2930B2BB007003DE /* CTUserParser.swift */; };
 		18630B1F2930B31A007003DE /* UserParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18630B1E2930B31A007003DE /* UserParser.swift */; };
 		18630B212930B35E007003DE /* CTUserAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18630B202930B35E007003DE /* CTUserAPI.swift */; };
@@ -40,27 +40,11 @@
 		18630B282930D01E007003DE /* APISettings-Debug.plist in Resources */ = {isa = PBXBuildFile; fileRef = 18630B272930D01E007003DE /* APISettings-Debug.plist */; };
 		18630B2A2930D123007003DE /* APISettings-Release.plist in Resources */ = {isa = PBXBuildFile; fileRef = 18630B292930D123007003DE /* APISettings-Release.plist */; };
 		18630B2C2930D20F007003DE /* HomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18630B2B2930D20F007003DE /* HomeViewController.xib */; };
-		22F86EBB1CFF722ED37D6199 /* Pods_Carteck_SampleTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3E11EAFA76345FF96B9B2C3 /* Pods_Carteck_SampleTests.framework */; };
+		18861FC0293108A30050556F /* LoginVCComposer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18861FBF293108A30050556F /* LoginVCComposer.swift */; };
+		18861FC329310B920050556F /* LoginDBRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18861FC229310B920050556F /* LoginDBRepository.swift */; };
+		18861FC529310BB70050556F /* CTLoginDBRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18861FC429310BB70050556F /* CTLoginDBRepository.swift */; };
 		94BF48299379543D728A29D9 /* Pods_Carteck_Sample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6CFE2DE4146D743F96986236 /* Pods_Carteck_Sample.framework */; };
-		C3720A76CC8AE4F0D06130B0 /* Pods_Carteck_Sample_Carteck_SampleUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F6CF83801842BF636EBD59CD /* Pods_Carteck_Sample_Carteck_SampleUITests.framework */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		181BE6572930937D00F80E1E /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 181BE6352930937A00F80E1E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 181BE63C2930937A00F80E1E;
-			remoteInfo = "Carteck Sample";
-		};
-		181BE6612930937D00F80E1E /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 181BE6352930937A00F80E1E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 181BE63C2930937A00F80E1E;
-			remoteInfo = "Carteck Sample";
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		181BE63D2930937A00F80E1E /* Carteck Sample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Carteck Sample.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -71,11 +55,6 @@
 		181BE64C2930937C00F80E1E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		181BE64F2930937C00F80E1E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		181BE6512930937C00F80E1E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		181BE6562930937D00F80E1E /* Carteck SampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Carteck SampleTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		181BE65A2930937D00F80E1E /* Carteck_SampleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Carteck_SampleTests.swift; sourceTree = "<group>"; };
-		181BE6602930937D00F80E1E /* Carteck SampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Carteck SampleUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		181BE6642930937D00F80E1E /* Carteck_SampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Carteck_SampleUITests.swift; sourceTree = "<group>"; };
-		181BE6662930937D00F80E1E /* Carteck_SampleUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Carteck_SampleUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		181BE67829309C5800F80E1E /* HomeVCComposer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVCComposer.swift; sourceTree = "<group>"; };
 		181BE67B29309CA800F80E1E /* HomeVCViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVCViewModel.swift; sourceTree = "<group>"; };
 		181BE67E2930A02300F80E1E /* NetworkClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkClient.swift; sourceTree = "<group>"; };
@@ -86,13 +65,16 @@
 		181BE68A2930A0B900F80E1E /* HTTPURLResponseExt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTPURLResponseExt.swift; sourceTree = "<group>"; };
 		181BE68D2930A0EC00F80E1E /* AlertBehavior.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertBehavior.swift; sourceTree = "<group>"; };
 		181BE68F2930A10E00F80E1E /* LoadingBehavior.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingBehavior.swift; sourceTree = "<group>"; };
+		185482492930F9A800BD6498 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		1854824B2930F9CE00BD6498 /* LoginViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LoginViewController.xib; sourceTree = "<group>"; };
+		1854824D2930FA0000BD6498 /* LoginVCViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVCViewModel.swift; sourceTree = "<group>"; };
 		18630B092930A777007003DE /* AlertInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertInfo.swift; sourceTree = "<group>"; };
 		18630B0C2930A7C6007003DE /* AppSetup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppSetup.swift; sourceTree = "<group>"; };
 		18630B0E2930A7DA007003DE /* Configurator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Configurator.swift; sourceTree = "<group>"; };
 		18630B112930A819007003DE /* APISettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APISettings.swift; sourceTree = "<group>"; };
 		18630B132930A879007003DE /* CodableExt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodableExt.swift; sourceTree = "<group>"; };
 		18630B162930AFD6007003DE /* UserAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserAPI.swift; sourceTree = "<group>"; };
-		18630B192930B11C007003DE /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		18630B192930B11C007003DE /* People.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = People.swift; sourceTree = "<group>"; };
 		18630B1C2930B2BB007003DE /* CTUserParser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CTUserParser.swift; sourceTree = "<group>"; };
 		18630B1E2930B31A007003DE /* UserParser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserParser.swift; sourceTree = "<group>"; };
 		18630B202930B35E007003DE /* CTUserAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CTUserAPI.swift; sourceTree = "<group>"; };
@@ -100,6 +82,9 @@
 		18630B272930D01E007003DE /* APISettings-Debug.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "APISettings-Debug.plist"; sourceTree = "<group>"; };
 		18630B292930D123007003DE /* APISettings-Release.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "APISettings-Release.plist"; sourceTree = "<group>"; };
 		18630B2B2930D20F007003DE /* HomeViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeViewController.xib; sourceTree = "<group>"; };
+		18861FBF293108A30050556F /* LoginVCComposer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVCComposer.swift; sourceTree = "<group>"; };
+		18861FC229310B920050556F /* LoginDBRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginDBRepository.swift; sourceTree = "<group>"; };
+		18861FC429310BB70050556F /* CTLoginDBRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CTLoginDBRepository.swift; sourceTree = "<group>"; };
 		4AB6A02DA4BCCECACF9703FA /* Pods-Carteck Sample-Carteck SampleUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Carteck Sample-Carteck SampleUITests.debug.xcconfig"; path = "Target Support Files/Pods-Carteck Sample-Carteck SampleUITests/Pods-Carteck Sample-Carteck SampleUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		6CFE2DE4146D743F96986236 /* Pods_Carteck_Sample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Carteck_Sample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		808FBA3560667C174E54DC5B /* Pods-Carteck Sample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Carteck Sample.debug.xcconfig"; path = "Target Support Files/Pods-Carteck Sample/Pods-Carteck Sample.debug.xcconfig"; sourceTree = "<group>"; };
@@ -120,22 +105,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		181BE6532930937C00F80E1E /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				22F86EBB1CFF722ED37D6199 /* Pods_Carteck_SampleTests.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		181BE65D2930937D00F80E1E /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				C3720A76CC8AE4F0D06130B0 /* Pods_Carteck_Sample_Carteck_SampleUITests.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -143,8 +112,6 @@
 			isa = PBXGroup;
 			children = (
 				181BE63F2930937A00F80E1E /* Carteck Sample */,
-				181BE6592930937D00F80E1E /* Carteck SampleTests */,
-				181BE6632930937D00F80E1E /* Carteck SampleUITests */,
 				181BE63E2930937A00F80E1E /* Products */,
 				C082C55403D5623DF9594A09 /* Pods */,
 				3FBD38826C9277F9B39568FF /* Frameworks */,
@@ -155,8 +122,6 @@
 			isa = PBXGroup;
 			children = (
 				181BE63D2930937A00F80E1E /* Carteck Sample.app */,
-				181BE6562930937D00F80E1E /* Carteck SampleTests.xctest */,
-				181BE6602930937D00F80E1E /* Carteck SampleUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -164,6 +129,7 @@
 		181BE63F2930937A00F80E1E /* Carteck Sample */ = {
 			isa = PBXGroup;
 			children = (
+				188D9FF3293901300042ECAF /* ManagedObject */,
 				181BE673293093CC00F80E1E /* AppDelegates */,
 				181BE674293093DE00F80E1E /* Feature */,
 				181BE675293093E500F80E1E /* Core */,
@@ -173,23 +139,6 @@
 				181BE6492930937A00F80E1E /* Carteck_Sample.xcdatamodeld */,
 			);
 			path = "Carteck Sample";
-			sourceTree = "<group>";
-		};
-		181BE6592930937D00F80E1E /* Carteck SampleTests */ = {
-			isa = PBXGroup;
-			children = (
-				181BE65A2930937D00F80E1E /* Carteck_SampleTests.swift */,
-			);
-			path = "Carteck SampleTests";
-			sourceTree = "<group>";
-		};
-		181BE6632930937D00F80E1E /* Carteck SampleUITests */ = {
-			isa = PBXGroup;
-			children = (
-				181BE6642930937D00F80E1E /* Carteck_SampleUITests.swift */,
-				181BE6662930937D00F80E1E /* Carteck_SampleUITestsLaunchTests.swift */,
-			);
-			path = "Carteck SampleUITests";
 			sourceTree = "<group>";
 		};
 		181BE673293093CC00F80E1E /* AppDelegates */ = {
@@ -204,6 +153,7 @@
 		181BE674293093DE00F80E1E /* Feature */ = {
 			isa = PBXGroup;
 			children = (
+				185482472930F98400BD6498 /* Login */,
 				181BE6762930940100F80E1E /* Home */,
 			);
 			path = Feature;
@@ -230,7 +180,6 @@
 				18630B1B2930B2AB007003DE /* Parser */,
 				18630B182930B112007003DE /* Models */,
 				18630B152930AFAD007003DE /* API */,
-				181BE67829309C5800F80E1E /* HomeVCComposer.swift */,
 				181BE67A29309C8400F80E1E /* ViewController */,
 			);
 			path = Home;
@@ -247,6 +196,7 @@
 		181BE67A29309C8400F80E1E /* ViewController */ = {
 			isa = PBXGroup;
 			children = (
+				181BE67829309C5800F80E1E /* HomeVCComposer.swift */,
 				181BE6442930937A00F80E1E /* HomeViewController.swift */,
 				18630B2B2930D20F007003DE /* HomeViewController.xib */,
 				181BE67B29309CA800F80E1E /* HomeVCViewModel.swift */,
@@ -291,6 +241,26 @@
 			path = Behaviour;
 			sourceTree = "<group>";
 		};
+		185482472930F98400BD6498 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				18861FC129310B6B0050556F /* Repository */,
+				185482482930F99000BD6498 /* ViewController */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		185482482930F99000BD6498 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				185482492930F9A800BD6498 /* LoginViewController.swift */,
+				1854824B2930F9CE00BD6498 /* LoginViewController.xib */,
+				1854824D2930FA0000BD6498 /* LoginVCViewModel.swift */,
+				18861FBF293108A30050556F /* LoginVCComposer.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
 		18630B0B2930A7B6007003DE /* Setup */ = {
 			isa = PBXGroup;
 			children = (
@@ -321,7 +291,7 @@
 		18630B182930B112007003DE /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				18630B192930B11C007003DE /* User.swift */,
+				18630B192930B11C007003DE /* People.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -329,8 +299,8 @@
 		18630B1B2930B2AB007003DE /* Parser */ = {
 			isa = PBXGroup;
 			children = (
-				18630B1C2930B2BB007003DE /* CTUserParser.swift */,
 				18630B1E2930B31A007003DE /* UserParser.swift */,
+				18630B1C2930B2BB007003DE /* CTUserParser.swift */,
 			);
 			path = Parser;
 			sourceTree = "<group>";
@@ -350,6 +320,22 @@
 				18630B292930D123007003DE /* APISettings-Release.plist */,
 			);
 			path = APIConfiguration;
+			sourceTree = "<group>";
+		};
+		18861FC129310B6B0050556F /* Repository */ = {
+			isa = PBXGroup;
+			children = (
+				18861FC229310B920050556F /* LoginDBRepository.swift */,
+				18861FC429310BB70050556F /* CTLoginDBRepository.swift */,
+			);
+			path = Repository;
+			sourceTree = "<group>";
+		};
+		188D9FF3293901300042ECAF /* ManagedObject */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ManagedObject;
 			sourceTree = "<group>";
 		};
 		3FBD38826C9277F9B39568FF /* Frameworks */ = {
@@ -397,45 +383,6 @@
 			productReference = 181BE63D2930937A00F80E1E /* Carteck Sample.app */;
 			productType = "com.apple.product-type.application";
 		};
-		181BE6552930937C00F80E1E /* Carteck SampleTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 181BE66D2930937D00F80E1E /* Build configuration list for PBXNativeTarget "Carteck SampleTests" */;
-			buildPhases = (
-				BFBF401639A7F2958F37DA0D /* [CP] Check Pods Manifest.lock */,
-				181BE6522930937C00F80E1E /* Sources */,
-				181BE6532930937C00F80E1E /* Frameworks */,
-				181BE6542930937C00F80E1E /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				181BE6582930937D00F80E1E /* PBXTargetDependency */,
-			);
-			name = "Carteck SampleTests";
-			productName = "Carteck SampleTests";
-			productReference = 181BE6562930937D00F80E1E /* Carteck SampleTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		181BE65F2930937D00F80E1E /* Carteck SampleUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 181BE6702930937D00F80E1E /* Build configuration list for PBXNativeTarget "Carteck SampleUITests" */;
-			buildPhases = (
-				20084893548EC203A5A3118C /* [CP] Check Pods Manifest.lock */,
-				181BE65C2930937D00F80E1E /* Sources */,
-				181BE65D2930937D00F80E1E /* Frameworks */,
-				181BE65E2930937D00F80E1E /* Resources */,
-				C495A557F875D667ACDAB59E /* [CP] Embed Pods Frameworks */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				181BE6622930937D00F80E1E /* PBXTargetDependency */,
-			);
-			name = "Carteck SampleUITests";
-			productName = "Carteck SampleUITests";
-			productReference = 181BE6602930937D00F80E1E /* Carteck SampleUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -448,14 +395,6 @@
 				TargetAttributes = {
 					181BE63C2930937A00F80E1E = {
 						CreatedOnToolsVersion = 14.1;
-					};
-					181BE6552930937C00F80E1E = {
-						CreatedOnToolsVersion = 14.1;
-						TestTargetID = 181BE63C2930937A00F80E1E;
-					};
-					181BE65F2930937D00F80E1E = {
-						CreatedOnToolsVersion = 14.1;
-						TestTargetID = 181BE63C2930937A00F80E1E;
 					};
 				};
 			};
@@ -473,8 +412,6 @@
 			projectRoot = "";
 			targets = (
 				181BE63C2930937A00F80E1E /* Carteck Sample */,
-				181BE6552930937C00F80E1E /* Carteck SampleTests */,
-				181BE65F2930937D00F80E1E /* Carteck SampleUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -486,23 +423,10 @@
 			files = (
 				18630B282930D01E007003DE /* APISettings-Debug.plist in Resources */,
 				18630B2A2930D123007003DE /* APISettings-Release.plist in Resources */,
+				1854824C2930F9CE00BD6498 /* LoginViewController.xib in Resources */,
 				18630B2C2930D20F007003DE /* HomeViewController.xib in Resources */,
 				181BE6502930937C00F80E1E /* LaunchScreen.storyboard in Resources */,
 				181BE64D2930937C00F80E1E /* Assets.xcassets in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		181BE6542930937C00F80E1E /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		181BE65E2930937D00F80E1E /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -524,67 +448,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Carteck Sample/Pods-Carteck Sample-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		20084893548EC203A5A3118C /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-Carteck Sample-Carteck SampleUITests-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		BFBF401639A7F2958F37DA0D /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-Carteck SampleTests-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		C495A557F875D667ACDAB59E /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Carteck Sample-Carteck SampleUITests/Pods-Carteck Sample-Carteck SampleUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Carteck Sample-Carteck SampleUITests/Pods-Carteck Sample-Carteck SampleUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Carteck Sample-Carteck SampleUITests/Pods-Carteck Sample-Carteck SampleUITests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		CCD1DC7594354296BE32079E /* [CP] Check Pods Manifest.lock */ = {
@@ -622,6 +485,7 @@
 				181BE6842930A02300F80E1E /* APIResult.swift in Sources */,
 				181BE6882930A08500F80E1E /* NibViewController.swift in Sources */,
 				18630B1F2930B31A007003DE /* UserParser.swift in Sources */,
+				18861FC0293108A30050556F /* LoginVCComposer.swift in Sources */,
 				181BE67C29309CA800F80E1E /* HomeVCViewModel.swift in Sources */,
 				18630B122930A819007003DE /* APISettings.swift in Sources */,
 				181BE6452930937A00F80E1E /* HomeViewController.swift in Sources */,
@@ -629,52 +493,26 @@
 				18630B242930C545007003DE /* UserEndPoint.swift in Sources */,
 				181BE6852930A02300F80E1E /* Endpoint.swift in Sources */,
 				181BE68B2930A0B900F80E1E /* HTTPURLResponseExt.swift in Sources */,
+				18861FC329310B920050556F /* LoginDBRepository.swift in Sources */,
 				181BE67929309C5800F80E1E /* HomeVCComposer.swift in Sources */,
 				181BE6832930A02300F80E1E /* NetworkManager.swift in Sources */,
 				181BE68E2930A0EC00F80E1E /* AlertBehavior.swift in Sources */,
 				18630B172930AFD6007003DE /* UserAPI.swift in Sources */,
 				18630B142930A879007003DE /* CodableExt.swift in Sources */,
+				1854824E2930FA0000BD6498 /* LoginVCViewModel.swift in Sources */,
 				18630B1D2930B2BB007003DE /* CTUserParser.swift in Sources */,
 				18630B0D2930A7C6007003DE /* AppSetup.swift in Sources */,
 				18630B0A2930A777007003DE /* AlertInfo.swift in Sources */,
+				18861FC529310BB70050556F /* CTLoginDBRepository.swift in Sources */,
 				181BE6822930A02300F80E1E /* NetworkClient.swift in Sources */,
 				181BE6412930937A00F80E1E /* AppDelegate.swift in Sources */,
 				181BE6432930937A00F80E1E /* SceneDelegate.swift in Sources */,
-				18630B1A2930B11C007003DE /* User.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		181BE6522930937C00F80E1E /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				181BE65B2930937D00F80E1E /* Carteck_SampleTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		181BE65C2930937D00F80E1E /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				181BE6672930937D00F80E1E /* Carteck_SampleUITestsLaunchTests.swift in Sources */,
-				181BE6652930937D00F80E1E /* Carteck_SampleUITests.swift in Sources */,
+				1854824A2930F9A800BD6498 /* LoginViewController.swift in Sources */,
+				18630B1A2930B11C007003DE /* People.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		181BE6582930937D00F80E1E /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 181BE63C2930937A00F80E1E /* Carteck Sample */;
-			targetProxy = 181BE6572930937D00F80E1E /* PBXContainerItemProxy */;
-		};
-		181BE6622930937D00F80E1E /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 181BE63C2930937A00F80E1E /* Carteck Sample */;
-			targetProxy = 181BE6612930937D00F80E1E /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		181BE64E2930937C00F80E1E /* LaunchScreen.storyboard */ = {
@@ -862,82 +700,6 @@
 			};
 			name = Release;
 		};
-		181BE66E2930937D00F80E1E /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = C9C76E721A228EBC55825407 /* Pods-Carteck SampleTests.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.YB.Carteck-SampleTests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Carteck Sample.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Carteck Sample";
-			};
-			name = Debug;
-		};
-		181BE66F2930937D00F80E1E /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = EBC1EB801805B650AFF4773C /* Pods-Carteck SampleTests.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.YB.Carteck-SampleTests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Carteck Sample.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Carteck Sample";
-			};
-			name = Release;
-		};
-		181BE6712930937D00F80E1E /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4AB6A02DA4BCCECACF9703FA /* Pods-Carteck Sample-Carteck SampleUITests.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.YB.Carteck-SampleUITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = "Carteck Sample";
-			};
-			name = Debug;
-		};
-		181BE6722930937D00F80E1E /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 85A26ACC4A4FD0C9BD57A860 /* Pods-Carteck Sample-Carteck SampleUITests.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.YB.Carteck-SampleUITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = "Carteck Sample";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -955,24 +717,6 @@
 			buildConfigurations = (
 				181BE66B2930937D00F80E1E /* Debug */,
 				181BE66C2930937D00F80E1E /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		181BE66D2930937D00F80E1E /* Build configuration list for PBXNativeTarget "Carteck SampleTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				181BE66E2930937D00F80E1E /* Debug */,
-				181BE66F2930937D00F80E1E /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		181BE6702930937D00F80E1E /* Build configuration list for PBXNativeTarget "Carteck SampleUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				181BE6712930937D00F80E1E /* Debug */,
-				181BE6722930937D00F80E1E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

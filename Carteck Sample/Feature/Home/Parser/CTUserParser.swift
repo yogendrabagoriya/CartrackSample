@@ -13,9 +13,9 @@ public enum APIError: Swift.Error {
 
 struct CTUserParser: UserParser{
     
-    func parseUser(_ data: Data, from response: HTTPURLResponse) throws -> (User){
+    func parseUser(_ data: Data, from response: HTTPURLResponse) throws -> (People){
         
-        guard response.isOK, let apod = try? JSONDecoder().decode(User.self, from: data) else {
+        guard response.isOK, let apod = try? JSONDecoder().decode(People.self, from: data) else {
             throw APIError.invalidData
         }
         

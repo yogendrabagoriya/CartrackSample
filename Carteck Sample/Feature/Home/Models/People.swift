@@ -32,4 +32,4 @@ struct Company: Codable {
     let name, catchPhrase, bs: String
 }
 
-typealias User = [UserElement]
+typealias People = [UserElement]

@@ -8,5 +8,5 @@
 import Foundation
 
 protocol UserParser{
-    func parseUser(_ data: Data, from response: HTTPURLResponse) throws -> (User)
+    func parseUser(_ data: Data, from response: HTTPURLResponse) throws -> (People)
 }

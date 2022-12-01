@@ -12,7 +12,7 @@ struct HomeVCComposer{
     
     /**
         This method coposed HomeViewController.
-        It configures NetworkManager, GSApodAPI, HomeVCViewModel and HomeViewController.
+        It configures NetworkManager, CTUserAPI, HomeVCViewModel and HomeViewController.
         HomeViewController having dependecy of HomeVCViewModel that confirms HomeVCViewModelProtocol protocol
      */
     static func makeHomeVC() -> (UIViewController) {
