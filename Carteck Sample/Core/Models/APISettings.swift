@@ -8,13 +8,11 @@
 import Foundation
 
 struct APISettings : Codable{
-    
-    var apiKey: String
-    
+        
     var endPoints : EndPoints
     
     struct EndPoints : Codable{
-        var apod: EndpointConfig
+        var user: EndpointConfig
         
         struct EndpointConfig: Codable{
             var scheme : String

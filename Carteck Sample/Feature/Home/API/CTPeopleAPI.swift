@@ -11,7 +11,7 @@ import Foundation
 //    case invalidData
 //}
 
-class CTUserAPI: UserAPI{
+class CTPeopleAPI: PeopleAPI{
     
     var networkManager: NetworkClient
     var parser: UserParser
@@ -22,8 +22,8 @@ class CTUserAPI: UserAPI{
     }
 }
 
-extension CTUserAPI{
-    func getPicture(queryParam: [String: String], completion: @escaping Completion) {
+extension CTPeopleAPI{
+    func fetchPeoples(queryParam: [String: String], completion: @escaping Completion) {
         let endPoint = UserEndPoint.getUserEndpoint(querParam: queryParam)
         self.networkManager.get(from: endPoint.url.url!) {[weak self] result in
             switch result{

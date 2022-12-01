@@ -2,14 +2,17 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-	<key>user</key>
+	<key>endPoints</key>
 	<dict>
-		<key>scheme</key>
-		<string>https</string>
-		<key>host</key>
-		<string>jsonplaceholder.typicode.com</string>
-		<key>path</key>
-		<string>/users</string>
+		<key>user</key>
+		<dict>
+			<key>scheme</key>
+			<string>https</string>
+			<key>host</key>
+			<string>jsonplaceholder.typicode.com</string>
+			<key>path</key>
+			<string>/users</string>
+		</dict>
 	</dict>
 </dict>
 </plist>

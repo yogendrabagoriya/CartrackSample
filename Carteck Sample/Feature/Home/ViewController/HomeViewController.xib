@@ -11,6 +11,7 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="HomeViewController" customModule="Carteck_Sample" customModuleProvider="target">
             <connections>
+                <outlet property="tableView" destination="3l8-cE-gBf" id="jHO-fo-e1h"/>
                 <outlet property="view" destination="iN0-l3-epB" id="M3O-ee-4HQ"/>
             </connections>
         </placeholder>
@@ -18,8 +19,36 @@
         <view contentMode="scaleToFill" id="iN0-l3-epB">
             <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="yfr-M0-lnT">
+                    <rect key="frame" x="0.0" y="59" width="393" height="759"/>
+                    <subviews>
+                        <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="3l8-cE-gBf">
+                            <rect key="frame" x="0.0" y="0.0" width="393" height="759"/>
+                            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                            <connections>
+                                <outlet property="dataSource" destination="-1" id="RJl-C1-Kj6"/>
+                                <outlet property="delegate" destination="-1" id="Gom-B5-tks"/>
+                            </connections>
+                        </tableView>
+                    </subviews>
+                    <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    <constraints>
+                        <constraint firstAttribute="bottom" secondItem="3l8-cE-gBf" secondAttribute="bottom" id="54D-ey-etl"/>
+                        <constraint firstItem="3l8-cE-gBf" firstAttribute="top" secondItem="yfr-M0-lnT" secondAttribute="top" id="Du6-Xo-Ced"/>
+                        <constraint firstItem="3l8-cE-gBf" firstAttribute="leading" secondItem="yfr-M0-lnT" secondAttribute="leading" id="PpP-ZJ-izg"/>
+                        <constraint firstAttribute="trailing" secondItem="3l8-cE-gBf" secondAttribute="trailing" id="xYg-8T-D7h"/>
+                    </constraints>
+                </view>
+            </subviews>
             <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
             <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+            <constraints>
+                <constraint firstItem="yfr-M0-lnT" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" id="RUl-Zf-L1D"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="bottom" secondItem="yfr-M0-lnT" secondAttribute="bottom" id="Ufh-Rp-qja"/>
+                <constraint firstItem="yfr-M0-lnT" firstAttribute="top" secondItem="vUN-kp-3ea" secondAttribute="top" id="VIv-OB-IVd"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="yfr-M0-lnT" secondAttribute="trailing" id="gEo-9G-noi"/>
+            </constraints>
             <point key="canvasLocation" x="39" y="20"/>
         </view>
     </objects>

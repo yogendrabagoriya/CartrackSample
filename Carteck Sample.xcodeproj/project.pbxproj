@@ -31,11 +31,11 @@
 		18630B0F2930A7DA007003DE /* Configurator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18630B0E2930A7DA007003DE /* Configurator.swift */; };
 		18630B122930A819007003DE /* APISettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18630B112930A819007003DE /* APISettings.swift */; };
 		18630B142930A879007003DE /* CodableExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18630B132930A879007003DE /* CodableExt.swift */; };
-		18630B172930AFD6007003DE /* UserAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18630B162930AFD6007003DE /* UserAPI.swift */; };
+		18630B172930AFD6007003DE /* PeopleAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18630B162930AFD6007003DE /* PeopleAPI.swift */; };
 		18630B1A2930B11C007003DE /* People.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18630B192930B11C007003DE /* People.swift */; };
 		18630B1D2930B2BB007003DE /* CTUserParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18630B1C2930B2BB007003DE /* CTUserParser.swift */; };
 		18630B1F2930B31A007003DE /* UserParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18630B1E2930B31A007003DE /* UserParser.swift */; };
-		18630B212930B35E007003DE /* CTUserAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18630B202930B35E007003DE /* CTUserAPI.swift */; };
+		18630B212930B35E007003DE /* CTPeopleAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18630B202930B35E007003DE /* CTPeopleAPI.swift */; };
 		18630B242930C545007003DE /* UserEndPoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18630B232930C545007003DE /* UserEndPoint.swift */; };
 		18630B282930D01E007003DE /* APISettings-Debug.plist in Resources */ = {isa = PBXBuildFile; fileRef = 18630B272930D01E007003DE /* APISettings-Debug.plist */; };
 		18630B2A2930D123007003DE /* APISettings-Release.plist in Resources */ = {isa = PBXBuildFile; fileRef = 18630B292930D123007003DE /* APISettings-Release.plist */; };
@@ -44,6 +44,10 @@
 		18861FC329310B920050556F /* LoginDBRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18861FC229310B920050556F /* LoginDBRepository.swift */; };
 		18861FC529310BB70050556F /* CTLoginDBRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18861FC429310BB70050556F /* CTLoginDBRepository.swift */; };
 		188E985029390EF800FE95B9 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 188E984F29390EF800FE95B9 /* Constants.swift */; };
+		188E98582939269400FE95B9 /* UITableViewCellExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 188E98562939269400FE95B9 /* UITableViewCellExt.swift */; };
+		188E98592939269400FE95B9 /* UITableViewExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 188E98572939269400FE95B9 /* UITableViewExt.swift */; };
+		188E985C2939279000FE95B9 /* PeopleTVCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 188E985B2939279000FE95B9 /* PeopleTVCell.swift */; };
+		188E985E293927A300FE95B9 /* PeopleTVCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 188E985D293927A300FE95B9 /* PeopleTVCell.xib */; };
 		4D46A1D7F6584E312F137A04 /* Pods_Carteck_Sample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B9817E4D907BD412CE79133E /* Pods_Carteck_Sample.framework */; };
 /* End PBXBuildFile section */
 
@@ -74,11 +78,11 @@
 		18630B0E2930A7DA007003DE /* Configurator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Configurator.swift; sourceTree = "<group>"; };
 		18630B112930A819007003DE /* APISettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APISettings.swift; sourceTree = "<group>"; };
 		18630B132930A879007003DE /* CodableExt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodableExt.swift; sourceTree = "<group>"; };
-		18630B162930AFD6007003DE /* UserAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserAPI.swift; sourceTree = "<group>"; };
+		18630B162930AFD6007003DE /* PeopleAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeopleAPI.swift; sourceTree = "<group>"; };
 		18630B192930B11C007003DE /* People.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = People.swift; sourceTree = "<group>"; };
 		18630B1C2930B2BB007003DE /* CTUserParser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CTUserParser.swift; sourceTree = "<group>"; };
 		18630B1E2930B31A007003DE /* UserParser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserParser.swift; sourceTree = "<group>"; };
-		18630B202930B35E007003DE /* CTUserAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CTUserAPI.swift; sourceTree = "<group>"; };
+		18630B202930B35E007003DE /* CTPeopleAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CTPeopleAPI.swift; sourceTree = "<group>"; };
 		18630B232930C545007003DE /* UserEndPoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserEndPoint.swift; sourceTree = "<group>"; };
 		18630B272930D01E007003DE /* APISettings-Debug.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "APISettings-Debug.plist"; sourceTree = "<group>"; };
 		18630B292930D123007003DE /* APISettings-Release.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "APISettings-Release.plist"; sourceTree = "<group>"; };
@@ -87,6 +91,10 @@
 		18861FC229310B920050556F /* LoginDBRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginDBRepository.swift; sourceTree = "<group>"; };
 		18861FC429310BB70050556F /* CTLoginDBRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CTLoginDBRepository.swift; sourceTree = "<group>"; };
 		188E984F29390EF800FE95B9 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		188E98562939269400FE95B9 /* UITableViewCellExt.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UITableViewCellExt.swift; sourceTree = "<group>"; };
+		188E98572939269400FE95B9 /* UITableViewExt.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UITableViewExt.swift; sourceTree = "<group>"; };
+		188E985B2939279000FE95B9 /* PeopleTVCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeopleTVCell.swift; sourceTree = "<group>"; };
+		188E985D293927A300FE95B9 /* PeopleTVCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PeopleTVCell.xib; sourceTree = "<group>"; };
 		808FBA3560667C174E54DC5B /* Pods-Carteck Sample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Carteck Sample.debug.xcconfig"; path = "Target Support Files/Pods-Carteck Sample/Pods-Carteck Sample.debug.xcconfig"; sourceTree = "<group>"; };
 		B3E11EAFA76345FF96B9B2C3 /* Pods_Carteck_SampleTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Carteck_SampleTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B9817E4D907BD412CE79133E /* Pods_Carteck_Sample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Carteck_Sample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -175,6 +183,7 @@
 		181BE6762930940100F80E1E /* Home */ = {
 			isa = PBXGroup;
 			children = (
+				188E985A2939277B00FE95B9 /* TableViewCell */,
 				18630B222930C530007003DE /* Endpoint */,
 				18630B1B2930B2AB007003DE /* Parser */,
 				18630B182930B112007003DE /* Models */,
@@ -225,6 +234,8 @@
 		181BE6892930A0AA00F80E1E /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
+				188E98562939269400FE95B9 /* UITableViewCellExt.swift */,
+				188E98572939269400FE95B9 /* UITableViewExt.swift */,
 				181BE68A2930A0B900F80E1E /* HTTPURLResponseExt.swift */,
 				18630B132930A879007003DE /* CodableExt.swift */,
 			);
@@ -281,8 +292,8 @@
 		18630B152930AFAD007003DE /* API */ = {
 			isa = PBXGroup;
 			children = (
-				18630B162930AFD6007003DE /* UserAPI.swift */,
-				18630B202930B35E007003DE /* CTUserAPI.swift */,
+				18630B162930AFD6007003DE /* PeopleAPI.swift */,
+				18630B202930B35E007003DE /* CTPeopleAPI.swift */,
 			);
 			path = API;
 			sourceTree = "<group>";
@@ -335,6 +346,15 @@
 			children = (
 			);
 			path = ManagedObject;
+			sourceTree = "<group>";
+		};
+		188E985A2939277B00FE95B9 /* TableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				188E985B2939279000FE95B9 /* PeopleTVCell.swift */,
+				188E985D293927A300FE95B9 /* PeopleTVCell.xib */,
+			);
+			path = TableViewCell;
 			sourceTree = "<group>";
 		};
 		3FBD38826C9277F9B39568FF /* Frameworks */ = {
@@ -416,6 +436,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				188E985E293927A300FE95B9 /* PeopleTVCell.xib in Resources */,
 				18630B282930D01E007003DE /* APISettings-Debug.plist in Resources */,
 				18630B2A2930D123007003DE /* APISettings-Release.plist in Resources */,
 				1854824C2930F9CE00BD6498 /* LoginViewController.xib in Resources */,
@@ -476,11 +497,13 @@
 			files = (
 				181BE6902930A10E00F80E1E /* LoadingBehavior.swift in Sources */,
 				18630B0F2930A7DA007003DE /* Configurator.swift in Sources */,
-				18630B212930B35E007003DE /* CTUserAPI.swift in Sources */,
+				18630B212930B35E007003DE /* CTPeopleAPI.swift in Sources */,
 				181BE6842930A02300F80E1E /* APIResult.swift in Sources */,
 				181BE6882930A08500F80E1E /* NibViewController.swift in Sources */,
+				188E98582939269400FE95B9 /* UITableViewCellExt.swift in Sources */,
 				18630B1F2930B31A007003DE /* UserParser.swift in Sources */,
 				18861FC0293108A30050556F /* LoginVCComposer.swift in Sources */,
+				188E985C2939279000FE95B9 /* PeopleTVCell.swift in Sources */,
 				181BE67C29309CA800F80E1E /* HomeVCViewModel.swift in Sources */,
 				18630B122930A819007003DE /* APISettings.swift in Sources */,
 				188E985029390EF800FE95B9 /* Constants.swift in Sources */,
@@ -489,11 +512,12 @@
 				18630B242930C545007003DE /* UserEndPoint.swift in Sources */,
 				181BE6852930A02300F80E1E /* Endpoint.swift in Sources */,
 				181BE68B2930A0B900F80E1E /* HTTPURLResponseExt.swift in Sources */,
+				188E98592939269400FE95B9 /* UITableViewExt.swift in Sources */,
 				18861FC329310B920050556F /* LoginDBRepository.swift in Sources */,
 				181BE67929309C5800F80E1E /* HomeVCComposer.swift in Sources */,
 				181BE6832930A02300F80E1E /* NetworkManager.swift in Sources */,
 				181BE68E2930A0EC00F80E1E /* AlertBehavior.swift in Sources */,
-				18630B172930AFD6007003DE /* UserAPI.swift in Sources */,
+				18630B172930AFD6007003DE /* PeopleAPI.swift in Sources */,
 				18630B142930A879007003DE /* CodableExt.swift in Sources */,
 				1854824E2930FA0000BD6498 /* LoginVCViewModel.swift in Sources */,
 				18630B1D2930B2BB007003DE /* CTUserParser.swift in Sources */,

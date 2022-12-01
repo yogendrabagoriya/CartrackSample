@@ -7,9 +7,9 @@
 
 import Foundation
 
-protocol UserAPI: AnyObject{
+protocol PeopleAPI: AnyObject{
     typealias Result = APIResult<People>
     typealias Completion = ((Result)->())
     
-    func getPicture(queryParam: [String: String], completion: @escaping Completion)
+    func fetchPeoples(queryParam: [String: String], completion: @escaping Completion)
 }

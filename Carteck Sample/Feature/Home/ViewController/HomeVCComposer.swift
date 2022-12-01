@@ -18,7 +18,7 @@ struct HomeVCComposer{
     static func makeHomeVC() -> (UIViewController) {
         let manager = NetworkManager(session: .shared)
         let parser = CTUserParser()
-        let api = CTUserAPI(networkManager: manager, parser: parser)
+        let api = CTPeopleAPI(networkManager: manager, parser: parser)
         
         let viewModel = HomeVCViewModel(api: api)
         

@@ -10,7 +10,7 @@ import Foundation
 struct UserEndPoint{
     
     static func getUserEndpoint(querParam: [String: String]) -> Endpoint {
-        let config = AppSetup.shared.apiSetting!.endPoints.apod
+        let config = AppSetup.shared.apiSetting!.endPoints.user
         
         let ep = Endpoint(scheme: config.scheme,
                           host: config.host,
