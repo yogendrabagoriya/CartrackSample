@@ -1,0 +1,18 @@
+PODS:
+  - NVActivityIndicatorView (4.8.0):
+    - NVActivityIndicatorView/Presenter (= 4.8.0)
+  - NVActivityIndicatorView/Presenter (4.8.0)
+
+DEPENDENCIES:
+  - NVActivityIndicatorView (~> 4.8)
+
+SPEC REPOS:
+  trunk:
+    - NVActivityIndicatorView
+
+SPEC CHECKSUMS:
+  NVActivityIndicatorView: d24b7ebcf80af5dcd994adb650e2b6c93379270f
+
+PODFILE CHECKSUM: f9174cabe11066dc6254c740670da7168e4b70f5
+
+COCOAPODS: 1.11.3
