@@ -58,7 +58,10 @@ extension LoginViewController: LoginVCPresenter{
         main.async {
             self.hideLoading()
             let vc = HomeVCComposer.makeHomeVC()
-            self.navigationController?.pushViewController(vc, animated: true)
+            let nav = UINavigationController(rootViewController: vc)
+            nav.modalPresentationStyle = .overFullScreen
+            self.present(nav, animated: true)
+//            self.navigationController?.pushViewController(vc, animated: true)
         }
     }
     

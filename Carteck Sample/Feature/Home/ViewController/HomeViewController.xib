@@ -49,6 +49,7 @@
                 <constraint firstItem="yfr-M0-lnT" firstAttribute="top" secondItem="vUN-kp-3ea" secondAttribute="top" id="VIv-OB-IVd"/>
                 <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="yfr-M0-lnT" secondAttribute="trailing" id="gEo-9G-noi"/>
             </constraints>
+            <nil key="simulatedBottomBarMetrics"/>
             <point key="canvasLocation" x="39" y="20"/>
         </view>
     </objects>
