@@ -43,6 +43,7 @@
 		18861FC0293108A30050556F /* LoginVCComposer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18861FBF293108A30050556F /* LoginVCComposer.swift */; };
 		18861FC329310B920050556F /* LoginDBRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18861FC229310B920050556F /* LoginDBRepository.swift */; };
 		18861FC529310BB70050556F /* CTLoginDBRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18861FC429310BB70050556F /* CTLoginDBRepository.swift */; };
+		188E985029390EF800FE95B9 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 188E984F29390EF800FE95B9 /* Constants.swift */; };
 		4D46A1D7F6584E312F137A04 /* Pods_Carteck_Sample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B9817E4D907BD412CE79133E /* Pods_Carteck_Sample.framework */; };
 /* End PBXBuildFile section */
 
@@ -85,6 +86,7 @@
 		18861FBF293108A30050556F /* LoginVCComposer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVCComposer.swift; sourceTree = "<group>"; };
 		18861FC229310B920050556F /* LoginDBRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginDBRepository.swift; sourceTree = "<group>"; };
 		18861FC429310BB70050556F /* CTLoginDBRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CTLoginDBRepository.swift; sourceTree = "<group>"; };
+		188E984F29390EF800FE95B9 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		808FBA3560667C174E54DC5B /* Pods-Carteck Sample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Carteck Sample.debug.xcconfig"; path = "Target Support Files/Pods-Carteck Sample/Pods-Carteck Sample.debug.xcconfig"; sourceTree = "<group>"; };
 		B3E11EAFA76345FF96B9B2C3 /* Pods_Carteck_SampleTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Carteck_SampleTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B9817E4D907BD412CE79133E /* Pods_Carteck_Sample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Carteck_Sample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -165,6 +167,7 @@
 				181BE6862930A07200F80E1E /* UIComponent */,
 				181BE67D2930A02300F80E1E /* Network */,
 				18630B092930A777007003DE /* AlertInfo.swift */,
+				188E984F29390EF800FE95B9 /* Constants.swift */,
 			);
 			path = Core;
 			sourceTree = "<group>";
@@ -480,6 +483,7 @@
 				18861FC0293108A30050556F /* LoginVCComposer.swift in Sources */,
 				181BE67C29309CA800F80E1E /* HomeVCViewModel.swift in Sources */,
 				18630B122930A819007003DE /* APISettings.swift in Sources */,
+				188E985029390EF800FE95B9 /* Constants.swift in Sources */,
 				181BE6452930937A00F80E1E /* HomeViewController.swift in Sources */,
 				181BE64B2930937A00F80E1E /* Carteck_Sample.xcdatamodeld in Sources */,
 				18630B242930C545007003DE /* UserEndPoint.swift in Sources */,

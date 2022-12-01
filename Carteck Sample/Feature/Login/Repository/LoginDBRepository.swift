@@ -9,4 +9,5 @@ import Foundation
 
 protocol LoginDBRepository{
     func verifyCredentials(credentials: Dictionary<String, String>)->(Bool)
+    func saveRecordIfEmpty()
 }

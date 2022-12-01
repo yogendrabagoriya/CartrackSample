@@ -23,7 +23,20 @@ class LoginVCViewModel{
 
 
 extension LoginVCViewModel: LoginVCViewModelProtocol{
+    
+    func createUserRecord(){
+        self.repository?.saveRecordIfEmpty()
+    }
+    
     func verifyCredentials(credentials: Dictionary<String, String>) {
-        self.presenter?.validCredential()
+        main.async {
+            let result = self.repository?.verifyCredentials(credentials: credentials)
+            if result == true{
+                self.presenter?.validCredential()
+            }else{
+                let errorAlert = AlertInfo(title: "Error", message: "Invalid Credentials. Please try again")
+                self.presenter?.inValidCredentials(info: errorAlert)
+            }
+        }
     }
 }
