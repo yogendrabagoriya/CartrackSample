@@ -1,1 +1,9 @@
+To install this application you need to follow below steps.
 
+1. Clone or donload the repository.
+2. For sefty run 'pod install' command to manage dependency.
+3. After install, application will ask for credentials. One sample credential is in below
+      User Name - Yogendra
+      Password -  yogi
+      Country  -  India
+      
